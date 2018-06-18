@@ -5,14 +5,18 @@
 header {
   align-items: center;
   border: .1em solid black;
-  min-height: 4em;
+  height: 3em;
 
+}
+
+#logo {
+  height: 3em;
 }
 
 footer {
   align-items: center;
   border: .1em solid black;
-  min-height: 4em;
+  height: 3em;
 }
 
 #top-section {
@@ -30,26 +34,29 @@ footer {
 }
 
 #form {
+  background-color: #262626;
   border: .1em solid white;
   border-right: none;
   color: white;
   height: 33.3%;
   margin-right: 50px;
+  opacity: .5;
   padding: 2em;
   position: absolute;
   right: 1em;
   top: 15em;
   width: 33.3%;
   z-index: 4;
-
 }
 
 #tech-spec {
+  background-color: #262626;
   border: .1em solid white;
   border-left: none;
   color: white;
   height: 50%;
   margin-left: 50px;
+opacity: .5;
   width: 400px;
   z-index: 9;
 }
@@ -81,7 +88,7 @@ footer {
 
 #logo2 {
   grid-area: logo2;
-  max-height: 100px;
+  height: 3em;
 }
 
 /* #company {
