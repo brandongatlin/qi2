@@ -1,12 +1,7 @@
-* {
-      /* text-transform: uppercase; */
-}
 
 header {
   align-items: center;
-  border: .1em solid black;
   height: 3em;
-
 }
 
 #logo {
@@ -15,7 +10,6 @@ header {
 
 footer {
   align-items: center;
-  border: .1em solid black;
   height: 3em;
 }
 
@@ -29,7 +23,6 @@ footer {
   align-items: center;
   background-image: url('images/middle-bg.jpg');
   background-size: cover;
-  border: .1em solid black;
   height: 35em;
 }
 
@@ -56,13 +49,12 @@ footer {
   color: white;
   height: 50%;
   margin-left: 50px;
-opacity: .5;
+  opacity: .5;
   width: 400px;
   z-index: 9;
 }
 
 #bottom-section {
-  border: .1em solid black;
   grid-gap: .5em;
   min-height: 20em;
 }
@@ -75,7 +67,6 @@ opacity: .5;
   transform: scale(1.5);
   transition-duration: 1s;
   transition-timing-function: ease-in-out;
-
 }
 
 .nav-link {
@@ -90,41 +81,3 @@ opacity: .5;
   grid-area: logo2;
   height: 3em;
 }
-
-/* #company {
-  border: .1em solid black;
-}
-
-#clients {
-  border: .1em solid black;
-}
-
-#products {
-  border: .1em solid black;
-}
-
-
-
-#home {
-  border: .1em solid black;
-}
-
-#application {
-  border: .1em solid black;
-}
-
-#tech-faq {
-  border: .1em solid black;
-}
-
-#faq {
-  border: .1em solid black;
-}
-
-#photo-gallery {
-  border: .1em solid black;
-}
-
-#video-gallery {
-  border: .1em solid black;
-} */

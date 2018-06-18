@@ -1,11 +1,10 @@
 #container {
   display: grid;
   grid-template-areas: 
-  "header"
+  /* "header" */
   "top-section"
   "middle-section"
-  "bottom-section"
-  "footer";
+  "bottom-section";
   grid-template-columns: 1fr;
   grid-template-rows: minmax(150px, auto);
 }
@@ -39,8 +38,6 @@ header {
 
 footer {
   display: grid;
-
-  display-area: footer;
   grid-column-gap: .5em;
   grid-template-areas:
   " .logo2 . . . . home application tech-faq faq photos videos";
