@@ -1,0 +1,106 @@
+#container {
+  display: grid;
+  grid-template-areas: 
+  "header"
+  "top-section"
+  "middle-section"
+  "bottom-section"
+  "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(150px, auto);
+}
+
+header {
+  display: grid;
+  display-area: header;
+  grid-column-gap: .5em;
+  grid-template-areas:
+  ". logo . . . . . . . company clients products";
+  grid-template-columns: repeat(12, 1fr);
+  padding: 2em;
+
+}
+
+#logo {
+  grid-area: logo;
+}
+
+#company {
+  grid-area: company;
+}
+
+#clients {
+  grid-area: clients;
+}
+
+#products {
+  grid-area: products;
+}
+
+footer {
+  display: grid;
+
+  display-area: footer;
+  grid-column-gap: .5em;
+  grid-template-areas:
+  " .logo2 . . . . home application tech-faq faq photos videos";
+  grid-template-columns: repeat(12, 1fr);
+  padding: 2em;
+}
+
+#logo2 {
+  grid-area: logo2;
+}
+
+#home {
+  grid-area: home;
+}
+
+#application {
+  grid-area: application;
+}
+
+#tech-faq {
+  grid-area: tech-faq;
+}
+
+#faq {
+  grid-area: faq;
+}
+
+#photo-gallery {
+  grid-area: photos;
+}
+
+#video-gallery {
+  grid-area: videos;
+}
+
+#top-section {
+  /* display: grid; */
+  grid-area: top-section;
+  /* grid-template-areas: ". . form";
+  grid-template-columns: repeat(3, 1fr) */
+}
+
+/* #form {
+  grid-area: form;
+} */
+
+#middle-section {
+  display: grid;
+  grid-area: middle-section;
+  grid-template-areas: "tech-spec . .";
+  grid-template-columns: repeat(3, 1fr)
+}
+
+#tech-spec {
+  grid-area: tech-spec
+}
+
+#bottom-section {
+  display: grid;
+  grid-area: bottom-section;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: minmax(10em, auto);
+}

@@ -1,0 +1,123 @@
+* {
+      /* text-transform: uppercase; */
+}
+
+header {
+  align-items: center;
+  border: .1em solid black;
+  min-height: 4em;
+
+}
+
+footer {
+  align-items: center;
+  border: .1em solid black;
+  min-height: 4em;
+}
+
+#top-section {
+  align-items: center;
+  border: .1em solid black;
+  height: 35em;
+}
+
+#middle-section {
+  align-items: center;
+  background-image: url('images/middle-bg.jpg');
+  background-size: cover;
+  border: .1em solid black;
+  height: 35em;
+}
+
+#form {
+  border: .1em solid white;
+  border-right: none;
+  color: white;
+  height: 33.3%;
+  margin-right: 50px;
+  padding: 2em;
+  position: absolute;
+  right: 1em;
+  top: 15em;
+  width: 33.3%;
+  z-index: 4;
+
+}
+
+#tech-spec {
+  border: .1em solid white;
+  border-left: none;
+  color: white;
+  height: 50%;
+  margin-left: 50px;
+  width: 400px;
+  z-index: 9;
+}
+
+#bottom-section {
+  border: .1em solid black;
+  grid-gap: .5em;
+  min-height: 20em;
+}
+
+.photo-gallery-pic {
+  width: 100%;
+}
+
+.photo-gallery-pic:hover {
+  transform: scale(1.5);
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+
+}
+
+.nav-link {
+  text-align: center;
+}
+
+.nav-link:hover {
+  border-bottom: .1em solid red;
+}
+
+#logo2 {
+  grid-area: logo2;
+  max-height: 100px;
+}
+
+/* #company {
+  border: .1em solid black;
+}
+
+#clients {
+  border: .1em solid black;
+}
+
+#products {
+  border: .1em solid black;
+}
+
+
+
+#home {
+  border: .1em solid black;
+}
+
+#application {
+  border: .1em solid black;
+}
+
+#tech-faq {
+  border: .1em solid black;
+}
+
+#faq {
+  border: .1em solid black;
+}
+
+#photo-gallery {
+  border: .1em solid black;
+}
+
+#video-gallery {
+  border: .1em solid black;
+} */
