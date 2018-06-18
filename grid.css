@@ -1,9 +1,9 @@
 #container {
   display: grid;
   grid-template-areas: 
-  /* "header" */
   "top-section"
   "middle-section"
+  "footer"
   "bottom-section";
   grid-template-columns: 1fr;
   grid-template-rows: minmax(150px, auto);
@@ -38,6 +38,7 @@ header {
 
 footer {
   display: grid;
+  grid-area: footer;
   grid-column-gap: .5em;
   grid-template-areas:
   " .logo2 . . . . home application tech-faq faq photos videos";
@@ -74,15 +75,9 @@ footer {
 }
 
 #top-section {
-  /* display: grid; */
   grid-area: top-section;
-  /* grid-template-areas: ". . form";
-  grid-template-columns: repeat(3, 1fr) */
+  
 }
-
-/* #form {
-  grid-area: form;
-} */
 
 #middle-section {
   display: grid;
