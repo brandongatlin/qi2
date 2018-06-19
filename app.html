@@ -7,8 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
-        crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/4acc1a0e35.js"></script>
+
     <link rel="stylesheet" href="grid.css">
     <link rel="stylesheet" href="carousel.css">
     <link rel="stylesheet" href="sticky.css">
@@ -17,11 +19,11 @@
 </head>
 
 <body>
-    <header class="myFooter">
+    <footer class="myFooter">
         <img src="images/LOTISLOGO.png" class="logo2"></img>
 
         <div class="home dropdown">
-            <a href="/" class="dropbtn">HOME</a>
+            <a href="./index.html" class="dropbtn">HOME</a>
         </div>
 
         <div class="application dropdown">
@@ -44,7 +46,46 @@
             <a href="#" class="dropbtn">VIDEOS</a>
         </div>
 
-    </header>
+    </footer>
+    <div class="page_content">
+        <section class="page">
+
+
+            <div class="row">
+
+                <div class="col-md-7 col-sm-7 offset-md-2 col-sm-offset-2">
+                    <h2 class="page_title">Application</h2>
+                    <a class="backlink" href="./index.html">
+                        <i class="backlink fa fa-caret-left"></i> BACK</a>
+
+                    <h3 class="text">End the need to idle machines and workers
+                        <br/>Keep API thread inspection at point of production
+                    </h3>
+                    <br/>
+                    <ul class="text">
+                        <li>Inspects API, Semi-Premium and Premium Threads</li>
+                        <li>Dual laser system can be mounted in any orientation </li>
+                        <li>Quick and easy to learn</li>
+                        <li>Reduces human factors</li>
+                        <li>Digital profile archived for traceability</li>
+                        <li>Speeds up shift start time</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                        <div class="innersignup">
+                                <h3>Sign up to receive our free downloadable LOTIS ® QX-C whitepaper.</h3>
+                               
+                                <form method="post" action="forms/register.php" > 
+                                     <div class="form-group"><input type="text" placeholder="NAME" name="name" class="form-control" required /></div>
+                                     <div class="form-group"><input type="email" placeholder="EMAIL" name="email" class="form-control" required /></div> 
+                                     <div class="form-group"><input type="submit" value="SUBMIT" class="btn btn-sub " /></div> 
+                                    
+                                </form>
+                            </div>
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
 
 </html>
