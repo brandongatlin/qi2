@@ -71,9 +71,9 @@ footer {
 
 /* Dropdown Button */
 .dropbtn {
-   background-color: #4CAF50;
+   background-color: white;
    border: none;
-   color: white;
+   color: black;
    font-size: 16px;
    padding: 16px;
 }
@@ -109,7 +109,7 @@ footer {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: lightgrey;
   
 }
 
@@ -117,15 +117,17 @@ footer {
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;} 
+.dropdown:hover .dropbtn {
+  text-decoration: underline red;
+} 
 
 .nav-link {
   text-align: center;
 }
 
-.nav-link:hover {
+/* .nav-link:hover {
   border-bottom: .1em solid red;
-}
+} */
 
 #logo2 {
   grid-area: logo2;
