@@ -1,9 +1,8 @@
-#container {
+.container {
   display: grid;
   grid-template-areas: 
   "top-section"
   "footer"
-
   "middle-section"
   "bottom-section";
   grid-template-columns: 1fr;
@@ -21,23 +20,19 @@ header {
 
 }
 
-#navbar {
-  grid-area: nav;
-}
-
-#logo {
+.logo {
   grid-area: logo;
 }
 
-#company {
+.company {
   grid-area: company;
 }
 
-#clients {
+.clients {
   grid-area: clients;
 }
 
-#products {
+.products {
   grid-area: products;
 }
 
@@ -46,64 +41,56 @@ footer {
   grid-area: footer;
   grid-column-gap: .5em;
   grid-template-areas:
-  " .logo2 . . . . home application tech-faq faq photos videos";
+  " . logo2 . . . . home application tech-faq faq photos videos";
   grid-template-columns: repeat(12, 1fr);
   padding: 2em;
-}
-
-#logoApp {
-  grid-area: logo2;
-}
-
-#logo2 {
-  grid-area: logo2;
 }
 
 .logo2 {
   grid-area: logo2;
 }
 
-#home {
+.home {
   grid-area: home;
 }
 
-#application {
+.application {
   grid-area: application;
 }
 
-#tech-faq {
+.tech-faq {
   grid-area: tech-faq;
 }
 
-#faq {
+.faq {
   grid-area: faq;
 }
 
-#photo-gallery {
+.photo-gallery {
   grid-area: photos;
 }
 
-#video-gallery {
+.video-gallery {
   grid-area: videos;
 }
 
-#top-section {
+.top-section {
   grid-area: top-section;
   
 }
 
-#middle-section {
+.middle-section {
   display: grid;
   grid-area: middle-section;
   grid-template-areas: "tech-spec . .";
   grid-template-columns: repeat(3, 1fr)
 }
 
-#tech-spec {
+.tech-spec {
   grid-area: tech-spec
 }
 
-#bottom-section {
+.bottom-section {
   display: grid;
   grid-area: bottom-section;
   grid-template-columns: repeat(4, 1fr);
