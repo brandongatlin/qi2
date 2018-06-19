@@ -20,6 +20,10 @@ header {
 
 }
 
+#navbar {
+  grid-area: nav;
+}
+
 #logo {
   grid-area: logo;
 }
