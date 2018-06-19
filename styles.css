@@ -84,6 +84,7 @@ footer {
   font-size: 12px;
   padding: 10px 15px;
   text-decoration: none;
+  min-width: 200px !important;
 }
 
 .dropbtn:hover {
@@ -149,4 +150,9 @@ footer {
 #logo2 {
   grid-area: logo2;
   height: 3em;
+}
+
+#tech-faq {
+  width: 150px !important;
+  text-align: center;
 }
