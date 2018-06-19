@@ -2,8 +2,9 @@
   display: grid;
   grid-template-areas: 
   "top-section"
-  "middle-section"
   "footer"
+
+  "middle-section"
   "bottom-section";
   grid-template-columns: 1fr;
   grid-template-rows: minmax(150px, auto);
