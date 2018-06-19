@@ -191,6 +191,7 @@ footer {
 
 .text {
   color: #777676;
+  font-size: 12px;
 }
 
 .innersignup {
@@ -212,4 +213,13 @@ footer {
 }
 .innersignup .form-group {
   margin: 30px 20px;
+}
+
+tr:nth-child(odd) {
+  background-color: #d8d8d8;
+}
+
+td,
+th {
+  padding: 2px 5px;
 }

@@ -17,17 +17,17 @@
 }
 
 #item1 {
-  background-image: url('images/offshore rig_9x4.png');
+  background-image: url('../images/offshore rig_9x4.png');
   background-size: cover;
 }
 
 #item2 {
-  background-image: url('images/gallery/20180529_144223.jpg');
+  background-image: url('../images/gallery/20180529_144223.jpg');
   background-size: cover;
 }
 
 #item3 {
-  background-image: url('images/gallery/20180529_144307.jpg');
+  background-image: url('../images/gallery/20180529_144307.jpg');
   background-size: cover;
 }
 

@@ -1,0 +1,19 @@
+{
+  "name": "qi2",
+  "version": "1.0.0",
+  "description": "redo of qi2 website in css grids",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandongatlin/qi2.git"
+  },
+  "author": "BG JMS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandongatlin/qi2/issues"
+  },
+  "homepage": "https://github.com/brandongatlin/qi2#readme"
+}
