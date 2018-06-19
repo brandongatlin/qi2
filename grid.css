@@ -51,7 +51,15 @@ footer {
   padding: 2em;
 }
 
+#logoApp {
+  grid-area: logo2;
+}
+
 #logo2 {
+  grid-area: logo2;
+}
+
+.logo2 {
   grid-area: logo2;
 }
 

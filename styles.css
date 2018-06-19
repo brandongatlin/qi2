@@ -147,12 +147,12 @@ footer {
   border-bottom: 0.1em solid red;
 }
 
-#logo2 {
+.logo2 {
   grid-area: logo2;
   height: 3em;
 }
 
-#tech-faq {
+.tech-faq {
   width: 150px !important;
   text-align: center;
 }
